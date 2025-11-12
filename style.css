@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 40px;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#sim {
+  background-color: #4caf50;
+  color: white;
+}
+
+#nao {
+  background-color: #f44336;
+  color: white;
+  position: absolute;
+}
+
+#mensagemFinal {
+  font-size: 24px;
+  color: #4caf50;
+  display: none;
+}
