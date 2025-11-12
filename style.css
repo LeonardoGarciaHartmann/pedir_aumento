@@ -2,6 +2,8 @@ body {
   font-family: Arial, sans-serif;
   background-image: url(./img/urso_pidao.jpg);
   background-color: #f3f4f6;
+  background-size: cover; 
+  background-position: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,6 +15,9 @@ body {
 h1 {
   color: #ffffff;
   margin-bottom: 40px;
+  background-color: rgba(0, 0, 0, 0.4); 
+  padding: 10px;
+  border-radius: 5px;
 }
 
 button {
@@ -28,16 +33,22 @@ button {
 #sim {
   background-color: #4caf50;
   color: white;
+  font-weight: bold; 
 }
 
 #nao {
   background-color: #f44336;
   color: white;
   position: absolute;
+  font-weight: bold; 
 }
 
 #mensagemFinal {
   font-size: 24px;
-  color: #4caf50;
+  color: #ffffff;
   display: none;
+  background-color: rgba(76, 175, 80, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: bold;
 }
