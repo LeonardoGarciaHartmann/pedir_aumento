@@ -2,6 +2,7 @@ const botaoSim = document.getElementById('sim');
 const botaoNao = document.getElementById('nao');
 const mensagemFinal = document.getElementById('mensagemFinal');
 const botoes = document.getElementById('botoes');
+const body = document.body;
 
 botaoNao.addEventListener('mouseover', () => {
   const larguraJanela = window.innerWidth;
@@ -17,5 +18,9 @@ botaoNao.addEventListener('mouseover', () => {
 botaoSim.addEventListener('click', () => {
   botoes.style.display = 'none';
   document.querySelector('h1').style.display = 'none';
+  body.style.backgroundImage = 'url(./img/urso_elvis.jpg)'; 
+  body.style.backgroundSize = 'cover';
+  body.style.backgroundPosition = 'center';
+  botaoSim.style.backgroundImage = 'none'; 
   mensagemFinal.style.display = 'block';
 });
